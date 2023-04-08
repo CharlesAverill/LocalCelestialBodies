@@ -5,7 +5,7 @@ Scripts and data to generate a database of celestial bodies local to our Solar S
 ```bash
 git clone https://github.com/CharlesAverill/LocalCelestialBodies.git lcb
 cd lcb
-python db_generator.py
+python lcb/db_generator.py
 ```
 
 # Example Queries

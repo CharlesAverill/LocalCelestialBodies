@@ -1,6 +1,9 @@
 # LocalCelestialBodies
 Scripts and data to generate a database of celestial bodies local to our Solar System
 
+Auth. Charles Averill, Manav Modi, Darrien Kramer, Hyeongjin Joo, Neal Gandhi
+
+
 # Generation
 ```bash
 git clone https://github.com/CharlesAverill/LocalCelestialBodies.git lcb

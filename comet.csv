@@ -1,0 +1,546 @@
+"full_name","diameter","class"
+"    1P/Halley",11.0,HTC
+"    2P/Encke",4.8,ETc
+"    3D/Biela",,JFc
+"    4P/Faye",3.54,JFc
+"    5D/Brorsen",,JFc
+"    6P/d'Arrest",3.2,JFc
+"    7P/Pons-Winnecke",5.2,JFc
+"    8P/Tuttle",4.5,JFC
+"    9P/Tempel 1",6.0,JFc
+"   10P/Tempel 2",10.6,JFc
+"   11P/Tempel-Swift-LINEAR",,JFc
+"   12P/Pons-Brooks",,HTC
+"   13P/Olbers",,HTC
+"   14P/Wolf",4.66,JFc
+"   15P/Finlay",,JFc
+"   16P/Brooks 2",,JFc
+"   17P/Holmes",3.42,JFc
+"   18D/Perrine-Mrkos",,JFc
+"   19P/Borrelly",4.8,JFc
+"   20D/Westphal",,HTC
+"   21P/Giacobini-Zinner",2.0,JFc
+"   22P/Kopff",3.0,JFc
+"   23P/Brorsen-Metcalf",,HTC
+"   24P/Schaumasse",2.6,JFc
+"   25D/Neujmin 2",,JFc
+"   26P/Grigg-Skjellerup",2.6,JFc
+"   27P/Crommelin",,HTC
+"   28P/Neujmin 1",21.4,JFc
+"   29P/Schwassmann-Wachmann 1",60.4,JFc
+"   30P/Reinmuth 1",7.8,JFc
+"   31P/Schwassmann-Wachmann 2",6.2,JFc
+"   32P/Comas Sola",8.4,JFc
+"   33P/Daniel",2.6,JFc
+"   34D/Gale",,JFc
+"   35P/Herschel-Rigollet",,HTC
+"   36P/Whipple",4.56,JFc
+"   37P/Forbes",1.92,JFc
+"   38P/Stephan-Oterma",,HTC
+"   39P/Oterma",,CTc
+"   40P/Vaisala 1",4.2,JFc
+"   41P/Tuttle-Giacobini-Kresak",1.4,JFc
+"   42P/Neujmin 3",2.2,JFc
+"   43P/Wolf-Harrington",3.6,JFc
+"   44P/Reinmuth 2",3.22,JFc
+"   45P/Honda-Mrkos-Pajdusakova",1.6,JFc
+"   46P/Wirtanen",1.2,JFc
+"   47P/Ashbrook-Jackson",5.6,JFc
+"   48P/Johnson",5.74,JFc
+"   49P/Arend-Rigaux",8.48,JFc
+"   50P/Arend",1.9,JFc
+"   51P/Harrington",4.8,JFc
+"   51P/Harrington-A",4.8,JFc
+"   51P/Harrington-D",,JFc
+"   52P/Harrington-Abell",2.6,JFc
+"   53P/Van Biesbroeck",6.66,JFc
+"   54P/de Vico-Swift-NEAT",,JFc
+"   55P/Tempel-Tuttle",3.6,HTC
+"   56P/Slaughter-Burnham",3.12,JFc
+"   57P/duToit-Neujmin-Delporte",,JFc
+"   57P/duToit-Neujmin-Delporte-A",,JFc
+"   58P/Jackson-Neujmin",,JFc
+"   59P/Kearns-Kwee",1.58,JFc
+"   60P/Tsuchinshan 2",,JFc
+"   61P/Shajn-Schaldach",2.4,JFc
+"   62P/Tsuchinshan 1",,JFc
+"   63P/Wild 1",2.9,JFc
+"   64P/Swift-Gehrels",3.2,JFc
+"   65P/Gunn",10.8,JFc
+"   66P/du Toit",,JFc
+"   67P/Churyumov-Gerasimenko",3.4,JFc
+"   68P/Klemola",4.4,JFc
+"   69P/Taylor",,JFc
+"   70P/Kojima",3,JFc
+"   71P/Clark",1.36,JFc
+"   72P/Denning-Fujikawa",,JFc
+"   73P/Schwassmann-Wachmann 3",,JFc
+"   73P/Schwassmann-Wachmann 3-A",,JFc
+"   73P/Schwassmann-Wachmann 3-B",,JFc
+"   73P/Schwassmann-Wachmann 3-C",,JFc
+"   73P/Schwassmann-Wachmann 3-E",,JFc
+"   73P/Schwassmann-Wachmann 3-G",,JFc
+"   73P/Schwassmann-Wachmann 3-H",,JFc
+"   73P/Schwassmann-Wachmann 3-J",,JFc
+"   73P/Schwassmann-Wachmann 3-K",,JFc
+"   73P/Schwassmann-Wachmann 3-L",,JFc
+"   73P/Schwassmann-Wachmann 3-M",,JFc
+"   73P/Schwassmann-Wachmann 3-N",,JFc
+"   73P/Schwassmann-Wachmann 3-P",,JFc
+"   73P/Schwassmann-Wachmann 3-Q",,JFc
+"   73P/Schwassmann-Wachmann 3-R",,JFc
+"   73P/Schwassmann-Wachmann 3-S",,JFc
+"   73P/Schwassmann-Wachmann 3-T",,JFc
+"   73P/Schwassmann-Wachmann 3-U",,JFc
+"   73P/Schwassmann-Wachmann 3-V",,JFc
+"   73P/Schwassmann-Wachmann 3-W",,JFc
+"   73P/Schwassmann-Wachmann 3-X",,JFc
+"   73P/Schwassmann-Wachmann 3-Y",,JFc
+"   73P/Schwassmann-Wachmann 3-Z",,JFc
+"   73P/Schwassmann-Wachmann 3-AA",,JFc
+"   73P/Schwassmann-Wachmann 3-AB",,JFc
+"   73P/Schwassmann-Wachmann 3-AC",,JFc
+"   73P/Schwassmann-Wachmann 3-AD",,JFc
+"   73P/Schwassmann-Wachmann 3-AE",,JFc
+"   73P/Schwassmann-Wachmann 3-AF",,JFc
+"   73P/Schwassmann-Wachmann 3-AG",,JFc
+"   73P/Schwassmann-Wachmann 3-AH",,JFc
+"   73P/Schwassmann-Wachmann 3-AI",,JFc
+"   73P/Schwassmann-Wachmann 3-AJ",,JFc
+"   73P/Schwassmann-Wachmann 3-AK",,JFc
+"   73P/Schwassmann-Wachmann 3-AL",,JFc
+"   73P/Schwassmann-Wachmann 3-AM",,JFc
+"   73P/Schwassmann-Wachmann 3-AN",,JFc
+"   73P/Schwassmann-Wachmann 3-AO",,JFc
+"   73P/Schwassmann-Wachmann 3-AP",,JFc
+"   73P/Schwassmann-Wachmann 3-AQ",,JFc
+"   73P/Schwassmann-Wachmann 3-AR",,JFc
+"   73P/Schwassmann-Wachmann 3-AS",,JFc
+"   73P/Schwassmann-Wachmann 3-AT",,JFc
+"   73P/Schwassmann-Wachmann 3-AU",,JFc
+"   73P/Schwassmann-Wachmann 3-AV",,JFc
+"   73P/Schwassmann-Wachmann 3-AW",,ETc
+"   73P/Schwassmann-Wachmann 3-AX",,JFc
+"   73P/Schwassmann-Wachmann 3-AY",,JFc
+"   73P/Schwassmann-Wachmann 3-AZ",,ETc
+"   73P/Schwassmann-Wachmann 3-BA",,JFc
+"   73P/Schwassmann-Wachmann 3-BB",,JFc
+"   73P/Schwassmann-Wachmann 3-BC",,JFc
+"   73P/Schwassmann-Wachmann 3-BD",,JFc
+"   73P/Schwassmann-Wachmann 3-BE",,JFc
+"   73P/Schwassmann-Wachmann 3-BF",,JFc
+"   73P/Schwassmann-Wachmann 3-BG",,JFc
+"   73P/Schwassmann-Wachmann 3-BH",,JFc
+"   73P/Schwassmann-Wachmann 3-BI",,JFc
+"   73P/Schwassmann-Wachmann 3-BJ",,JFc
+"   73P/Schwassmann-Wachmann 3-BK",,JFc
+"   73P/Schwassmann-Wachmann 3-BL",,JFc
+"   73P/Schwassmann-Wachmann 3-BM",,JFc
+"   73P/Schwassmann-Wachmann 3-BN",,JFc
+"   73P/Schwassmann-Wachmann 3-BO",,JFc
+"   73P/Schwassmann-Wachmann 3-BP",,JFc
+"   73P/Schwassmann-Wachmann 3-BQ",,JFc
+"   73P/Schwassmann-Wachmann 3-BR",,JFc
+"   73P/Schwassmann-Wachmann 3-BS",,JFc
+"   73P/Schwassmann-Wachmann 3-BT",,JFc
+"   73P/Schwassmann-Wachmann 3-BU",,JFc
+"   73P/Schwassmann-Wachmann 3-BV",,JFc
+"   73P/Schwassmann-Wachmann 3-BW",,JFc
+"   73P/Schwassmann-Wachmann 3-BX",,JFc
+"   73P/Schwassmann-Wachmann 3-BY",,JFc
+"   74P/Smirnova-Chernykh",4.46,ETc
+"   75D/Kohoutek",4.6,JFc
+"   76P/West-Kohoutek-Ikemura",0.66,JFc
+"   77P/Longmore",8.2,JFc
+"   78P/Gehrels 2",,JFc
+"   79P/du Toit-Hartley",2.8,JFc
+"   79P/du Toit-Hartley-A",,JFc
+"   79P/du Toit-Hartley-B",,JFc
+"   80P/Peters-Hartley",,JFc
+"   81P/Wild 2",4.0,JFc
+"   82P/Gehrels 3",1.46,ETc
+"   83D/Russell 1",,JFc
+"   84P/Giclas",1.80,JFc
+"   85P/Boethin",,JFc
+"   86P/Wild 3",0.86,JFc
+"   87P/Bus",0.56,ETc
+"   88P/Howell",4.4,JFc
+"   89P/Russell 2",2.8,JFc
+"   90P/Gehrels 1",7.8,JFc
+"   91P/Russell 3",,JFc
+"   92P/Sanguin",2.38,JFc
+"   93P/Lovas 1",,JFc
+"   94P/Russell 4",,ETc
+"   96P/Machholz 1",6.4,JFC
+"   97P/Metcalf-Brewington",3.4,JFc
+"   98P/Takamizawa",5.4,JFc
+"   99P/Kowal 1",10.2,JFc
+"  100P/Hartley 1",,JFc
+"  101P/Chernykh",5.6,JFc
+"  101P/Chernykh-B",,JFc
+"  102P/Shoemaker 1",3.2,JFc
+"  103P/Hartley 2",1.6,JFc
+"  104P/Kowal 2",2.0,JFc
+"  105P/Singer Brewster",2.2,JFc
+"  106P/Schuster",1.88,JFc
+"  108P/Ciffreo",3.2,JFc
+"  109P/Swift-Tuttle",26,HTC
+"  110P/Hartley 3",4.3,JFc
+"  111P/Helin-Roman-Crockett",1.2,ETc
+"  112P/Urata-Niijima",1.8,JFc
+"  113P/Spitaler",2.2,JFc
+"  114P/Wiseman-Skiff",1.56,JFc
+"  115P/Maury",2.22,JFc
+"  116P/Wild 4",,ETc
+"  117P/Helin-Roman-Alu 1",9,JFc
+"  118P/Shoemaker-Levy 4",4.8,JFc
+"  119P/Parker-Hartley",,JFc
+"  120P/Mueller 1",3.0,JFc
+"  121P/Shoemaker-Holt 2",3.24,JFc
+"  122P/de Vico",,HTC
+"  123P/West-Hartley",,JFc
+"  124P/Mrkos",,JFc
+"  125P/Spacewatch",1.6,JFc
+"  126P/IRAS",3.2,JFC
+"  127P/Holt-Olmstead",,JFc
+"  128P/Shoemaker-Holt 1",,JFc
+"  128P/Shoemaker-Holt 1-A",,JFc
+"  128P/Shoemaker-Holt 1-B",4.6,JFc
+"  129P/Shoemaker-Levy 3",,ETc
+"  130P/McNaught-Hughes",4.2,JFc
+"  131P/Mueller 2",,JFc
+"  132P/Helin-Roman-Alu 2",,JFc
+"  134P/Kowal-Vavrova",,JFc
+"  135P/Shoemaker-Levy 8",3.8,JFc
+"  136P/Mueller 3",,JFc
+"  137P/Shoemaker-Levy 2",5.8,JFc
+"  138P/Shoemaker-Levy 7",,JFc
+"  139P/Vaisala-Oterma",,JFc
+"  140P/Bowell-Skiff",,JFc
+"  141P/Machholz 2",,JFc
+"  141P/Machholz 2-A",,JFc
+"  141P/Machholz 2-D",,JFc
+"  141P/Machholz 2-I",,JFc
+"  142P/Ge-Wang",,JFc
+"  143P/Kowal-Mrkos",,JFc
+"  144P/Kushida",,JFc
+"  145P/Shoemaker-Levy 5",,JFc
+"  146P/Shoemaker-LINEAR",,JFc
+"  147P/Kushida-Muramatsu",0.42,ETc
+"  148P/Anderson-LINEAR",,JFc
+"  149P/Mueller 4",,JFc
+"  150P/LONEOS",,JFc
+"  151P/Helin",8.4,JFc
+"  152P/Helin-Lawrence",,JFc
+"  153P/Ikeya-Zhang",,COM
+"  154P/Brewington",,JFc
+"  155P/Shoemaker 3",,JFc
+"  156P/Russell-LINEAR",,JFc
+"  157P/Tritton",,JFc
+"  157P/Tritton-B",,JFc
+"  158P/Kowal-LINEAR",,JFc
+"  159P/LONEOS",,JFc
+"  160P/LINEAR",,JFc
+"  161P/Hartley-IRAS",,HTC
+"  162P/Siding Spring",,JFc
+"  163P/NEAT",,JFc
+"  164P/Christensen",,JFc
+"  165P/LINEAR",,CTc
+"  166P/NEAT",,CTc
+"  167P/CINEOS",66.170,CTc
+"  168P/Hergenrother",,JFc
+"  169P/NEAT",,JFc
+"  170P/Christensen",,JFc
+"  171P/Spahr",,JFc
+"  172P/Yeung",,JFc
+"  173P/Mueller 5",,JFc
+"  175P/Hergenrother",,JFc
+"  177P/Barnard",,HTC
+"  178P/Hug-Bell",,JFc
+"  179P/Jedicke",,JFc
+"  180P/NEAT",,JFc
+"  181P/Shoemaker-Levy 6",,JFc
+"  182P/LONEOS",,JFc
+"  183P/Korlevic-Juric",,JFc
+"  184P/Lovas 2",6.2,JFc
+"  185P/Petriew",,JFc
+"  186P/Garradd",,JFc
+"  187P/LINEAR",,JFc
+"  188P/LINEAR-Mueller",,JFc
+"  189P/NEAT",,JFc
+"  190P/Mueller",,JFc
+"  191P/McNaught",,JFc
+"  192P/Shoemaker-Levy 1",,JFc
+"  193P/LINEAR-NEAT",,JFc
+"  194P/LINEAR",,JFc
+"  195P/Hill",,JFc
+"  196P/Tichy",,JFc
+"  197P/LINEAR",,JFc
+"  198P/ODAS",,JFc
+"  199P/Shoemaker 4",,JFc
+"  200P/Larsen",,JFc
+"  201P/LONEOS",,JFc
+"  202P/Scotti",,JFc
+"  203P/Korlevic",,JFc
+"  204P/LINEAR-NEAT",,JFc
+"  205P/Giacobini",,JFc
+"  205P/Giacobini-A",,JFc
+"  205P/Giacobini-B",,JFc
+"  205P/Giacobini-C",,JFc
+"  206P/Barnard-Boattini",,JFc
+"  207P/NEAT",,JFc
+"  208P/McMillan",,JFc
+"  209P/LINEAR",,JFc
+"  210P/Christensen",,JFc
+"  211P/Hill",,JFc
+"  212P/NEAT",1.7,JFc
+"  213P/Van Ness",,JFc
+"  213P/Van Ness-B",,JFc
+"  214P/LINEAR",,JFc
+"  215P/NEAT",,JFc
+"  216P/LINEAR",,JFc
+"  217P/LINEAR",,JFc
+"  218P/LINEAR",,JFc
+"  219P/LINEAR",,JFc
+"  220P/McNaught",,JFc
+"  221P/LINEAR",,JFc
+"  222P/LINEAR",,JFc
+"  223P/Skiff",,JFc
+"  224P/LINEAR-NEAT",,JFc
+"  225P/LINEAR",,JFc
+"  226P/Pigott-LINEAR-Kowalski",,JFc
+"  227P/Catalina-LINEAR",,JFc
+"  228P/LINEAR",,JFc
+"  229P/Gibbs",,JFc
+"  230P/LINEAR",,JFc
+"  231P/LINEAR-NEAT",,JFc
+"  232P/Hill",,JFc
+"  233P/La Sagra",,ETc
+"  234P/LINEAR",,JFc
+"  235P/LINEAR",,JFc
+"  236P/LINEAR",,JFc
+"  237P/LINEAR",,JFc
+"  238P/Read",,ETc
+"  239P/LINEAR",,JFc
+"  240P/NEAT",,JFc
+"  241P/LINEAR",,JFc
+"  242P/Spahr",,JFc
+"  243P/NEAT",,JFc
+"  244P/Scotti",,JFc
+"  245P/WISE",,JFc
+"  246P/NEAT",,JFc
+"  247P/LINEAR",,JFc
+"  248P/Gibbs",,JFc
+"  249P/LINEAR",,JFc
+"  250P/Larson",,JFc
+"  251P/LINEAR",,JFc
+"  252P/LINEAR",,JFc
+"  253P/PANSTARRS",,JFc
+"  254P/McNaught",,JFc
+"  255P/Levy",,JFc
+"  256P/LINEAR",,JFc
+"  257P/Catalina",,JFc
+"  258P/PANSTARRS",,JFc
+"  259P/Garradd",,ETc
+"  260P/McNaught",,JFc
+"  261P/Larson",,JFc
+"  262P/McNaught-Russell",,JFC
+"  263P/Gibbs",,JFc
+"  264P/Larsen",,JFc
+"  265P/LINEAR",,JFc
+"  266P/Christensen",,ETc
+"  267P/LONEOS",,JFc
+"  268P/Bernardi",,JFc
+"  269P/Jedicke",,JFc
+"  270P/Gehrels",,JFc
+"  271P/van Houten-Lemmon",,JFc
+"  272P/NEAT",,JFc
+"  273P/Pons-Gambart",,HTC
+"  274P/Tombaugh-Tenagra",,JFc
+"  275P/Hermann",,JFc
+"  276P/Vorobjov",,JFc
+"  277P/LINEAR",,JFc
+"  278P/McNaught",,JFc
+"  279P/La Sagra",,JFc
+"  280P/Larsen",,JFc
+"  281P/MOSS",,JFc
+"  283P/Spacewatch",,JFc
+"  284P/McNaught",,JFc
+"  285P/LINEAR",,JFc
+"  286P/Christensen",,JFc
+"  287P/Christensen",,JFc
+"  289P/Blanpain",,JFc
+"  290P/Jager",,JFc
+"  291P/NEAT",,JFc
+"  292P/Li",,JFc
+"  293P/Spacewatch",,JFc
+"  294P/LINEAR",,JFc
+"  295P/LINEAR",,JFc
+"  296P/Garradd",,JFc
+"  297P/Beshore",,ETc
+"  298P/Christensen",,JFc
+"  299P/Catalina-PANSTARRS",,JFc
+"  300P/Catalina",,JFc
+"  301P/LINEAR-NEAT",,JFc
+"  302P/Lemmon-PANSTARRS",,JFc
+"  303P/NEAT",,JFc
+"  304P/Ory",,JFc
+"  305P/Skiff",,JFc
+"  306P/LINEAR",,JFc
+"  307P/LINEAR",,JFc
+"  308P/Lagerkvist-Carsenty",,JFc
+"  309P/LINEAR",,JFc
+"  310P/Hill",,JFc
+"  311P/PANSTARRS",,ETc
+"  312P/NEAT",,JFc
+"  313P/Gibbs",,ETc
+"  314P/Montani",,JFc
+"  315P/LONEOS",,JFc
+"  316P/LONEOS-Christensen",,JFc
+"  317P/WISE",,JFc
+"  318P/McNaught-Hartley",,JFc
+"  319P/Catalina-McNaught",,JFc
+"  320P/McNaught",,JFc
+"  321P/SOHO",,JFc
+"  322P/SOHO",,JFc
+"  323P/SOHO",,JFc
+"  324P/La Sagra",1.600,ETc
+"  325P/Yang-Gao",,JFc
+"  326P/Hill",,JFc
+"  327P/Van Ness",,JFc
+"  328P/LONEOS-Tucker",,JFc
+"  329P/LINEAR-Catalina",,JFc
+"  330P/Catalina",,JFc
+"  331P/Gibbs",,ETc
+"  332P/Ikeya-Murakami",,ETc
+"  332P/Ikeya-Murakami-A",,ETc
+"  332P/Ikeya-Murakami-B",,ETc
+"  332P/Ikeya-Murakami-C",,ETc
+"  332P/Ikeya-Murakami-D",,ETc
+"  332P/Ikeya-Murakami-E",,ETc
+"  332P/Ikeya-Murakami-F",,JFc
+"  332P/Ikeya-Murakami-G",,ETc
+"  332P/Ikeya-Murakami-H",,ETc
+"  332P/Ikeya-Murakami-I",,ETc
+"  333P/LINEAR",,JFC
+"  334P/NEAT",,JFc
+"  335P/Gibbs",,JFc
+"  336P/McNaught",,JFc
+"  337P/WISE",,JFc
+"  338P/McNaught",,JFc
+"  339P/Gibbs",,JFc
+"  340P/Boattini",,JFc
+"  341P/Gibbs",,JFc
+"  342P/SOHO",,JFC
+"  343P/NEAT-LONEOS",,JFc
+"  344P/Read",,JFc
+"  345P/LINEAR",,ETc
+"  346P/Catalina",,JFc
+"  347P/PANSTARRS",,JFc
+"  348P/PANSTARRS",,ETc
+"  349P/Lemmon",2.983,ETc
+"  350P/McNaught",,ETc
+"  351P/Wiegert-PANSTARRS",,JFc
+"  352P/Skiff",,JFc
+"  353P/McNaught",,JFc
+"  354P/LINEAR",,ETc
+"  355P/LINEAR-NEAT",,JFc
+"  356P/WISE",,JFc
+"  357P/Hill",,JFc
+"  358P/PANSTARRS",,ETc
+"  359P/LONEOS",,JFc
+"  360P/WISE",,JFc
+"  361P/Spacewatch",,JFc
+"  363P/Lemmon",,JFc
+"  364P/PANSTARRS",,JFc
+"  365P/PANSTARRS",,JFc
+"  366P/Spacewatch",,ETc
+"  367P/Catalina",,ETc
+"  368P/NEAT",,JFc
+"  369P/Hill",,JFc
+"  370P/NEAT",,JFc
+"  371P/LINEAR-Skiff",,JFc
+"  372P/McNaught",,JFc
+"  373P/Rinner",,JFc
+"  374P/Larson",,JFc
+"  375P/Hill",,JFc
+"  376P/LONEOS",,JFc
+"  377P/Scotti",,JFc
+"  378P/McNaught",,JFc
+"  379P/Spacewatch",,JFc
+"  380P/PANSTARRS",,JFc
+"  381P/LINEAR-Spacewatch",,JFc
+"  382P/Larson",,JFc
+"  383P/Christensen",,JFc
+"  384P/Kowalski",,JFc
+"  385P/Hill",,JFc
+"  386P/PANSTARRS",,JFc
+"  387P/Boattini",,JFc
+"  388P/Gibbs",,JFc
+"  389P/Siding Spring",,JFC
+"  390P/Gibbs",,JFc
+"  391P/Kowalski",,JFc
+"  392P/LINEAR",,JFc
+"  393P/Spacewatch-Hill",,JFc
+"  394P/PANSTARRS",,JFc
+"  395P/Catalina-NEAT",,JFc
+"  396P/Leonard",,JFc
+"  397P/Lemmon",,JFc
+"  398P/Boattini",,JFc
+"  399P/PANSTARRS",,JFc
+"  400P/PANSTARRS",,JFc
+"  401P/McNaught",,JFc
+"  402P/LINEAR",,JFc
+"  403P/CATALINA",,JFc
+"  404P/Bressi",,JFc
+"  405P/Lemmon",,JFc
+"  406P/Gibbs",,JFc
+"  407P/PANSTARRS-Fuls",,ETc
+"  408P/Novichonok-Gerke",,JFc
+"  409P/LONEOS-Hill",,JFc
+"  410P/NEAT-LINEAR",,JFc
+"  411P/Christensen",,JFc
+"  412P/WISE",,ETc
+"  413P/Larson",,JFc
+"  414P/STEREO",,JFc
+"  415P/Tenagra",,JFc
+"  416P/Scotti",,JFc
+"  417P/NEOWISE",,JFc
+"  418P/LINEAR",,JFc
+"  419P/PANSTARRS",,ETc
+"  420P/Hill",,JFc
+"  421P/McNaught",,JFc
+"  422P/Christensen",,JFc
+"  423P/Lemmon",,JFc
+"  424P/La Sagra",,JFc
+"  425P/Kowalski",,JFc
+"  426P/PANSTARRS",,ETc
+"  427P/ATLAS",,ETc
+"  428P/Gibbs",,JFc
+"  429P/LINEAR-Hill",,JFc
+"  430P/Scotti",,ETc
+"  431P/Scotti",,JFc
+"  432P/PANSTARRS",,ETc
+"  434P/Tenagra",,JFc
+"  435P/PANSTARRS",,ETc
+"  436P/Garradd",,JFc
+"  437P/Lemmon-PANSTARRS",,JFc
+"  438P/Christensen",,JFc
+"  439P/LINEAR",,JFc
+"  440P/Kobayashi",,JFc
+"  441P/PANSTARRS",,ETc
+"  442P/McNaught",,JFc
+"  443P/PANSTARRS-Christensen",,JFc
+"  444P/WISE-PANSTARRS",,JFc
+"  445P/Lemmon-PANSTARRS",,JFc
+"  446P/McNaught",,JFc
+"  447P/Sheppard-Tholen",,JFc
+"  448P/PANSTARRS",,JFc
+"  449P/Leonard",,JFc
+"  450P/LONEOS",,JFc
+"  451P/Christensen",,JFc
+"  452P/Sheppard-Jewitt",,JFc
+"  453P/WISE-Lemmon",,JFc
+"  454P/PANSTARRS",,JFc
+"  455P/PANSTARRS",,ETc
+"  456P/PANSTARRS",,ETc

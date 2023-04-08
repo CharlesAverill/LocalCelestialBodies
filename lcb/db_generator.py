@@ -12,8 +12,12 @@ from typing import Type
 from constant_lcb_data import *
 
 
-parser = argparse.ArgumentParser(description="Generator script for LocalCelestialBodies database")
-parser.add_argument("-v", "--verbose", action="store_true", help="Print verbose status messages")
+parser = argparse.ArgumentParser(
+    description="Generator script for LocalCelestialBodies database"
+)
+parser.add_argument(
+    "-v", "--verbose", action="store_true", help="Print verbose status messages"
+)
 if parser.parse_args().verbose:
     logging.getLogger().setLevel(logging.INFO)
 
@@ -55,8 +59,9 @@ def get_minerals() -> str:
         )
     )
 
+
 DB_FILENAME = Path(__file__).parents[1] / "lsb.db"
-DATA_PATH   = Path(__file__).parents[1] / "data"
+DATA_PATH = Path(__file__).parents[1] / "data"
 
 # Delete database if it already exists
 if os.path.exists(DB_FILENAME):
@@ -117,10 +122,25 @@ for orbit_name, (orbit_distance, orbit_location) in ORBIT_CLASSES.items():
     )
 # PLANETS
 logging.info("Inserting planet data")
-for planet_name, (climate, temperature, defining_features, has_rings, ring_color, ring_width) in PLANETS.items():
+for planet_name, (
+    climate,
+    temperature,
+    defining_features,
+    has_rings,
+    ring_color,
+    ring_width,
+) in PLANETS.items():
     cursor.execute(
         "INSERT INTO planet (name, climate, temperature, defining_features, ring_exists, ring_color, ring_width) VALUES (?,?,?,?,?,?,?);",
-        (planet_name, climate, temperature, defining_features, int(has_rings), ring_color, ring_width)
+        (
+            planet_name,
+            climate,
+            temperature,
+            defining_features,
+            int(has_rings),
+            ring_color,
+            ring_width,
+        ),
     )
 # ASTEROIDS
 latest_small_body_key: int = 1

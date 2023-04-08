@@ -48,14 +48,49 @@ DB_TABLES_FIELDS: Dict[
 }
 
 PLANETS: Dict[str, Tuple[str, str, str, bool, str, float]] = {
-    "Mercury": ("Extreme heat and extreme cold", "100-700K", "Slow rotation, relativistic effects", False, "", 0),
+    "Mercury": (
+        "Extreme heat and extreme cold",
+        "100-700K",
+        "Slow rotation, relativistic effects",
+        False,
+        "",
+        0,
+    ),
     "Venus": ("Sweltering hot", "737K", "Acid rain, toxic atmosphere", False, "", 0),
-    "Earth": ("Extremely variable", "248-318K", "Lush forests, deserts, oceans", False, "", 0),
+    "Earth": (
+        "Extremely variable",
+        "248-318K",
+        "Lush forests, deserts, oceans",
+        False,
+        "",
+        0,
+    ),
     "Mars": ("Windy and dry", "133-294K", "Dry rivers, polar ice caps", False, "", 0),
-    "Jupiter": ("Invariantly stormy", "123K", "Great Red Spot, hexagonal pole storm", False, "", 0),
+    "Jupiter": (
+        "Invariantly stormy",
+        "123K",
+        "Great Red Spot, hexagonal pole storm",
+        False,
+        "",
+        0,
+    ),
     "Saturn": ("Extremely windy", "97K", "Rings", True, "Brown and Gold", 73),
-    "Uranus": ("Cold and windy", "59K", "Lopsided rotation and rings", True, "Dark Gray", 3),
-    "Neptune": ("Colder and windier", "48K", "Farthest from the Sun, ice giant", True, "Red", 100),
+    "Uranus": (
+        "Cold and windy",
+        "59K",
+        "Lopsided rotation and rings",
+        True,
+        "Dark Gray",
+        3,
+    ),
+    "Neptune": (
+        "Colder and windier",
+        "48K",
+        "Farthest from the Sun, ice giant",
+        True,
+        "Red",
+        100,
+    ),
 }
 
 ORBIT_CLASSES: Dict[str, Tuple[float, str]] = {
@@ -77,5 +112,5 @@ ORBIT_CLASSES: Dict[str, Tuple[float, str]] = {
     "HTC": (999, "Halley-type comets"),
     "ETC": (999, "Encke-type comets"),
     "JFC": (999, "Jupiter-family comets"),
-    "CTC": (999, "Chiron-type comets")
+    "CTC": (999, "Chiron-type comets"),
 }

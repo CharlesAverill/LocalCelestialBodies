@@ -44,7 +44,7 @@ DB_TABLES_FIELDS: Dict[
         True,
         None,
     ),
-    "moon": ([("size", float), ("distance", float)], False, ["planet"]),
+    "moon": ([("name", str), ("size", float), ("mass", float)], False, ["planet"]),
 }
 
 PLANETS: Dict[str, Tuple[str, str, str, bool, str, float]] = {
@@ -113,4 +113,8 @@ ORBIT_CLASSES: Dict[str, Tuple[float, str]] = {
     "ETC": (999, "Encke-type comets"),
     "JFC": (999, "Jupiter-family comets"),
     "CTC": (999, "Chiron-type comets"),
+    "MET": (0, "Meteors")
 }
+
+G = 6.6743e-11
+PI = 3.141592653589793238462643383279

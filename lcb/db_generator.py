@@ -6,6 +6,7 @@ import random
 import sqlite3
 
 from pathlib import Path
+from string import printable
 from sqlite3 import Connection, Cursor
 from typing import Type
 
@@ -25,6 +26,30 @@ if parser.parse_args().verbose:
 def orbit_class_key(orbit_class: str) -> int:
     """Get the orbit_class_key of a given orbit class string"""
     return list(ORBIT_CLASSES.keys()).index(orbit_class.upper()) + 1
+
+
+def planet_key(planet_name: str) -> int:
+    """Get the planet key of a given planet"""
+    return list(PLANETS.keys()).index(planet_name.title()) + 1
+
+
+def printable_version(s: str) -> str:
+    for i in range(len(s)):
+        if s[i] not in printable:
+            return s[:i]
+    return s
+
+
+def cube_root(n: float) -> float:
+    return n ** (1. / 3)
+
+
+def mass_kg(s: str) -> float:
+    s = printable_version(s)
+    no_unit_s = float(s[:s.index(" ")])
+    if "kg" in s:
+        return no_unit_s
+    return no_unit_s / 1000.0
 
 
 def type_to_sqltype(t: Type) -> str:
@@ -142,9 +167,27 @@ for planet_name, (
             ring_width,
         ),
     )
-# ASTEROIDS
+# MOONS
+logging.info("Inserting moon data")
+with open(DATA_PATH / "moon.csv") as file:
+    # Open csv file, skip first line
+    reader = csv.DictReader(file)
+
+    # Iterate over rows
+    for row in reader:
+        # Skip any lines with NaNs
+        if any([not item or item.lower() == "pluto" for item in row.values()]):
+            continue
+
+        radius_cleaned = float(printable_version(row["radius"]))
+        mass = float(printable_version(row["gm"])) / G
+            
+        cursor.execute(
+            "INSERT INTO moon (name, size, mass, planet_key) VALUES (?,?,?,?);",
+            (row["name"], radius_cleaned, mass, planet_key(row["planet"]))
+        )
+# ASTEROIDS, COMETS
 latest_small_body_key: int = 1
-# full_name, diameter, class
 for small_object in ("comet", "asteroid"):
     logging.info(f"Inserting {small_object} data")
     with open(DATA_PATH / f"{small_object}.csv") as file:
@@ -182,6 +225,38 @@ for small_object in ("comet", "asteroid"):
                 )
 
             latest_small_body_key += 1
+# METEORS
+# name, size, orbit class
+# lifespan, planet_key, small_body_key
+logging.info(f"Inserting meteor data")
+with open(DATA_PATH / f"earth_meteor.csv") as file:
+    # Open csv file, skip first line
+    reader = csv.DictReader(file)
+
+    # Iterate over rows
+    for row in reader:
+        # D = M/V
+        # D ~= 3500 kg/m^3 (https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1945-5100.2003.tb00305.x)
+        # V = M/3500 = 4/3 PI r^3
+        # r = (M / (2625 * PI))^(1/3)
+        mass = mass_kg(row["Mass"])
+        radius = cube_root(mass / (2625 * PI))
+
+        cursor.execute(
+            "INSERT INTO small_body (name, size, orbit_class_key) VALUES (?,?,?)",
+            (row["Name"], radius, orbit_class_key("MET"))
+        )
+
+        # https://www.amsmeteors.org/fireballs/faqf/
+        # lifespan between [1s, 9s]
+        lifespan = random.randint(1, 9)
+
+        cursor.execute(
+            "INSERT INTO meteor (lifespan, planet_key, small_body_key) values (?,?,?)",
+            (lifespan, planet_key("Earth"), latest_small_body_key)
+        )
+
+        latest_small_body_key += 1
 
 # Close database connection
 logging.info("Closing database connection")

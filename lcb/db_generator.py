@@ -226,8 +226,6 @@ for small_object in ("comet", "asteroid"):
 
             latest_small_body_key += 1
 # METEORS
-# name, size, orbit class
-# lifespan, planet_key, small_body_key
 logging.info(f"Inserting meteor data")
 with open(DATA_PATH / f"earth_meteor.csv") as file:
     # Open csv file, skip first line
@@ -249,7 +247,7 @@ with open(DATA_PATH / f"earth_meteor.csv") as file:
 
         # https://www.amsmeteors.org/fireballs/faqf/
         # lifespan between [1s, 9s]
-        lifespan = random.randint(1, 9)
+        lifespan = max(random.uniform(0, 0.5), random.uniform(1, 9) * (mass / 370))
 
         cursor.execute(
             "INSERT INTO meteor (lifespan, planet_key, small_body_key) values (?,?,?)",

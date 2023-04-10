@@ -85,7 +85,7 @@ def get_minerals() -> str:
     )
 
 
-DB_FILENAME = Path(__file__).parents[1] / "lsb.db"
+DB_FILENAME = Path(__file__).parents[1] / "lcb.db"
 DATA_PATH = Path(__file__).parents[1] / "data"
 
 # Delete database if it already exists

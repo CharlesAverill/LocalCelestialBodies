@@ -43,3 +43,4 @@ The following data fields were generated at the time of the creation of the data
 - `comet.has_dust`
 - `comet.has_tail`
 - `meteor.lifespan`
+- `constellation.*`

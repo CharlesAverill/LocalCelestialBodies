@@ -41,12 +41,12 @@ def printable_version(s: str) -> str:
 
 
 def cube_root(n: float) -> float:
-    return n ** (1. / 3)
+    return n ** (1.0 / 3)
 
 
 def mass_kg(s: str) -> float:
     s = printable_version(s)
-    no_unit_s = float(s[:s.index(" ")])
+    no_unit_s = float(s[: s.index(" ")])
     if "kg" in s:
         return no_unit_s
     return no_unit_s / 1000.0
@@ -181,10 +181,10 @@ with open(DATA_PATH / "moon.csv") as file:
 
         radius_cleaned = float(printable_version(row["radius"]))
         mass = float(printable_version(row["gm"])) / G
-            
+
         cursor.execute(
             "INSERT INTO moon (name, size, mass, planet_key) VALUES (?,?,?,?);",
-            (row["name"], radius_cleaned, mass, planet_key(row["planet"]))
+            (row["name"], radius_cleaned, mass, planet_key(row["planet"])),
         )
 # ASTEROIDS, COMETS
 latest_small_body_key: int = 1
@@ -226,8 +226,8 @@ for small_object in ("comet", "asteroid"):
 
             latest_small_body_key += 1
 # METEORS
-logging.info(f"Inserting meteor data")
-with open(DATA_PATH / f"earth_meteor.csv") as file:
+logging.info("Inserting meteor data")
+with open(DATA_PATH / "earth_meteor.csv") as file:
     # Open csv file, skip first line
     reader = csv.DictReader(file)
 
@@ -242,7 +242,7 @@ with open(DATA_PATH / f"earth_meteor.csv") as file:
 
         cursor.execute(
             "INSERT INTO small_body (name, size, orbit_class_key) VALUES (?,?,?)",
-            (row["Name"], radius, orbit_class_key("MET"))
+            (row["Name"], radius, orbit_class_key("MET")),
         )
 
         # https://www.amsmeteors.org/fireballs/faqf/
@@ -251,10 +251,32 @@ with open(DATA_PATH / f"earth_meteor.csv") as file:
 
         cursor.execute(
             "INSERT INTO meteor (lifespan, planet_key, small_body_key) values (?,?,?)",
-            (lifespan, planet_key("Earth"), latest_small_body_key)
+            (lifespan, planet_key("Earth"), latest_small_body_key),
         )
 
         latest_small_body_key += 1
+# CONSTELLATIONS
+logging.info("Inserting constellation data")
+cnames = set([" "])
+for i in range(2000):
+    name = " "
+    while name in cnames:
+        name = (
+            random.choice(CONSTELLATION_NAME_COMBOS[0])
+            + " "
+            + random.choice(CONSTELLATION_NAME_COMBOS[1])
+        )
+    cnames.add(name)
+
+    planet_name = random.choice(list(PLANETS.keys()))
+
+
+    # Smallest constellation - Crux - 4 Stars
+    # Largest constellation - Hydra - 17 Stars
+    cursor.execute(
+        "INSERT INTO constellation (name, stars, planet_key) values (?,?,?)",
+        (name, random.randint(4, 17), planet_key(planet_name)),
+    )
 
 # Close database connection
 logging.info("Closing database connection")

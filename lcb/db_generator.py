@@ -251,7 +251,7 @@ with open(DATA_PATH / "earth_meteor.csv") as file:
 
         cursor.execute(
             "INSERT INTO meteor (lifespan, planet_key, small_body_key) values (?,?,?)",
-            (lifespan, planet_key("Earth"), latest_small_body_key),
+            (lifespan, planet_key(random.choice(list(PLANETS.keys()))), latest_small_body_key),
         )
 
         latest_small_body_key += 1

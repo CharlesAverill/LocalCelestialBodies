@@ -36,11 +36,15 @@ ORDER BY small_body.name DESC;
 ```
 
 # Randomly-generated data
-The following data fields were generated at the time of the creation of the database:
+The following data fields were randomly generated at the time of the creation of the database:
 - `asteroid.has_solid_composition`
 - `asteroid.minerals`
 - `comet.has_ice`
 - `comet.has_dust`
 - `comet.has_tail`
 - `meteor.lifespan`
+- `meteor.planet_key` 
+  
+  - All meteor information was pulled from an Earth Meteors database, so this 
+  field was randomized to diversify the data)
 - `constellation.*`
